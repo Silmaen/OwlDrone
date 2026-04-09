@@ -1,0 +1,12 @@
+remote:
+  # If package not found locally, do you allow for download?
+  pull: true
+  # If newer remote package exists, download it? (implies 'pull')
+  pull-newer: true
+packages:
+  owlengine:
+    version: 0.0.3
+    kind: "shared"
+  yaml-cpp:
+    version: 0.8.0
+    kind: "static"

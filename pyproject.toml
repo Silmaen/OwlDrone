@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "OwlDrone"
+package-mode = false
+description = "Drone navigation application based on OwlEngine"
+authors = ["Silmaen <genteur.slayer@laposte.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.build.dependencies]
+depmanager = "^0.5.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
